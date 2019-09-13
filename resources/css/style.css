@@ -193,6 +193,13 @@ section {
     margin-bottom: 10px;
 }
 
+/******************************************************************************************/
+/*********************************FUTURES***************************************************/
+/****************************************************************************************/
+
+.section-features .long-copy {
+    margin-bottom: 40px;
+}
 
 
 /******************************************************************************************/
@@ -220,6 +227,9 @@ section {
     width: 100%;
     margin: 0;
     overflow: hidden;
+    background-color: #000000;
+    background-color: #000000;
+    background-color: #000000;
 }
 
 .meal-photo img{
@@ -227,8 +237,10 @@ section {
     height: auto;
     transform: scale(1.15);
     transition: transform 0.5s;
+    opacity: 0.8;
 }
 
 .meal-photo img:hover{
+    opacity: 1;
     transform: scale(1.03);
 }
