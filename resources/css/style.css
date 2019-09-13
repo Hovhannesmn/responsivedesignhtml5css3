@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid;
+    /*border: 1px solid;*/
 }
 
 
@@ -86,9 +86,43 @@ input[type=submit] {
     color: #fff;
 }
 
+.logo {
+    height: 100px;
+    width: auto;
+    float:left;
+    margin-top: 20px;
+}
 
 
+.main-nav {
+    list-style : none ;
+    float: right;
+}
 
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 55px;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
 
 
 
