@@ -299,7 +299,6 @@ header {
 /* ----------------------------------------------- */
 /* HOW IT WORKS */
 /* ----------------------------------------------- */
-
 .section-steps {
     background-color: #f4f4f4;
 }
@@ -340,11 +339,29 @@ header {
 }
 
 .btn-app img {
-    height: 50px;
-    width: auto;
-    margin-right: 30px;
+     height: 50px;
+     width: auto;
+     margin-right: 30px;
+ }
+
+.btn-app:link,
+.btn-app:visited {
+border: 0;
 }
 
+/* ----------------------------------------------- */
+/* CITIES*/
+/* ----------------------------------------------- */
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+}
 
 
 
